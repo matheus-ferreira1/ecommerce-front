@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header
       className={`fixed w-full z-10 transition-all duration-300 py-2 ${
-        isActive ? "bg-gray-200/90 shadow-md" : "bg-gray-500"
+        isActive ? "bg-gray-200/90 shadow-md" : "bg-gray-300"
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-full">
